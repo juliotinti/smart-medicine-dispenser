@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h1>Bem-vindo ao portal Memomed!</h1>
+
+            {% if session['username'] %}
+                <h3>Vamos começar?</h3>
+            {% else %}
+                <p>Você ja possui cadastro? <a href="{{url_for('login') }}">Login</a></p>
+            {% endif %}
+
+            <div style="text-align:left;">
+                <h2>O que é o Memomed?</h2> 
+                
+                <p>O smart dispenser de remédios é um dispositivo inovador que facilita a administração e o gerenciamento de medicamentos. Com ele, é possível programar e controlar os horários e dosagens de seus remédios de forma fácil e precisa, garantindo que você ou seus entes queridos tomem as medicações corretamente e evitando esquecimentos ou overdose. </p>
+
+                <p>Além disso, o smart dispenser de remédios também oferece alertas de lembrete e notificações em caso de atrasos ou falta de medicação, permitindo que você mantenha o controle total sobre o tratamento. Ele também pode ser facilmente integrado a aplicativos de saúde e compartilhado com médicos e outros profissionais de saúde, permitindo uma monitorização ainda mais precisa.</p> 
+                <p>Com o smart dispenser de remédios, você pode ter a tranquilidade de saber que seus medicamentos estão sendo administrados corretamente e de forma confiável. Experimente agora e melhore a sua saúde e bem-estar com facilidade e precisão.</p>
+            </div>
+
+        </div>
+    </div>
+{% endblock %}
