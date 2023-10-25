@@ -1,4 +1,4 @@
-# MemoMed Project README
+# MemoMed Project
 
 ## Introduction
 Non-compliance or non-adherence to prescribed medical treatments is a significant clinical, social, and economic issue, affecting the quality of life of patients and increasing healthcare costs, impacting the general population. For chronic diseases such as diabetes and hypertension, the World Health Organization estimates an average of 50% non-adherence to treatments (CHISHOLM-BURNS et al., 2012).
@@ -7,27 +7,45 @@ In the United States, this problem is associated with 125,000 deaths, 10% of hos
 
 This project aims to address the issue of medication non-adherence and offer an affordable, low-cost solution to assist patients, especially the elderly, in adhering to their medication regimens.
 
-## Objectives
-### General Objective
-This project aims to develop a prototype of an automatic medication dispenser using accessible and low-cost technologies, such as development boards and additive manufacturing. The device will allow users to program medication schedules and store significant quantities of medications with warning alarms for dosage.
+## Features
+- Programmable medication schedules: Users can set specific times for medication intake.
+- Alarm notifications: The device provides audio and visual alerts to remind users to take their medications.
+- User-friendly interface: The accompanying web portal allows users to easily manage their medication schedules and receive reminders.
 
-### Specific Objectives
-- Design and validate a mechanism for precise and repeatable medication separation.
-- Develop a control system for medication collection, storage, and dispensing.
-- Create a user-device interface for schedule monitoring and usage.
-- Conduct continuous testing to validate the technology in its initial phase.
+## Repository Structure
 
-## Justification
-The MemoMed project emerges as a response to the problem of medication non-adherence, especially among the elderly. Similar devices in the market are expensive and often inaccessible to the elderly, who represent a significant portion of those affected by non-adherence. Therefore, developing a low-cost and accessible product is essential to better serve this demographic.
+The repository is organized as follows:
 
-## Work Structure
-The project is structured into four subsequent chapters, including:
-1. **Theoretical Foundation:** This chapter addresses the concepts related to medication adherence and the reasons behind non-adherence. It also highlights strategies for improving adherence.
-2. **Development:** In this chapter, we detail the project's scope, from conception to the manufacturing of the MemoMed prototype. We discuss the challenges encountered and the solutions found during development.
-3. **3D Modeling:** It describes the 3D modeling and printing process of the parts of the prototype, including the medication compartment and the device's casing.
-4. **Software Solution:** It explains the software solution used for MemoMed, including the user portal, the database, and the cloud hosting platform.
+- `flask`: contains the code for web page.
+
+## Usage
+1. Access the MemoMed web portal in your browser.
+2. Create an account and log in.
+3. Add your medications to the system, specifying the medication name, dosage, and schedule.
+4. Connect the MemoMed device to a power source and ensure it is connected to the internet.
+5. The device will automatically sync with the web portal and start dispensing medications according to the programmed schedule.
+6. When it's time to take your medication, the device will emit an audio and visual alert.
+7. Repeat the process for each scheduled medication intake.
 
 ## Conclusion
 The MemoMed project aims to offer an affordable and low-cost solution to enhance medication adherence, especially among the elderly population. We hope that this prototype, developed using technologies like 3D printing and microcontrollers, can contribute to better medication management and, consequently, improve the quality of life for patients.
 
+## Contributing
+We welcome contributions from the open-source community. If you would like to contribute to MemoMed, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/your-feature`
+3. Make your changes and commit them: `git commit -m "Add your feature"`
+4. Push to the branch: `git push origin feature/your-feature`
+5. Submit a pull request.
+
+## Authors <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" width="25" height="25" /> 
+
+- [Flávio Neto](https://www.linkedin.com/in/flavio-sidnei-dos-santos-neto/)
+- [Júlio Tinti](https://www.linkedin.com/in/juliotinti/)
+- [Lucas Moletta](https://www.linkedin.com/in/lucasmoletta/)
+- [Nitael Sampaio](https://www.linkedin.com/in/nsampaio/)
+
 For more details about the project, please refer to the subsequent chapters of this README or contact us.
+
+
