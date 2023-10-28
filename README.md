@@ -17,7 +17,8 @@ This project aims to address the issue of medication non-adherence and offer an 
 The repository is organized as follows:
 
 - `flask`: contains the code for web page.
-- `3dModel`: contains the 3D models of the project.  
+- `3dModel`: contains the 3D models of the project.
+- `esp32`: contains the ESP32 code.  
 
 ## Usage
 1. Access the MemoMed web portal in your browser.
