@@ -17,6 +17,7 @@ This project aims to address the issue of medication non-adherence and offer an 
 The repository is organized as follows:
 
 - `flask`: contains the code for web page.
+- `3dModel`: contains the 3D models of the project.  
 
 ## Usage
 1. Access the MemoMed web portal in your browser.
@@ -26,6 +27,27 @@ The repository is organized as follows:
 5. The device will automatically sync with the web portal and start dispensing medications according to the programmed schedule.
 6. When it's time to take your medication, the device will emit an audio and visual alert.
 7. Repeat the process for each scheduled medication intake.
+
+## Technology
+
+The following technologies were used in this project:
+
+- 3D modelling: used to model how the project would be. 
+- ESP32: used to deliver the medicine based on the web service call. 
+- Flask: used to create the web page and jobs. 
+- Heroku: used to deploy the web page. 
+
+## Results
+
+The physical implementation looks as the following:
+
+<p align="center"> <img src="https://iili.io/Jfqy5F4.png" width="400" height="600"/>  <img src="https://iili.io/JfqyUiJ.jpg" width="400" height="600"/> </p>
+
+The medicine is pushed by the rotary movement of the motor until it falls into the region that the user has access to.
+
+<p align="center"> <img src="https://iili.io/JfB3hla.png" width="300"/><img src="https://iili.io/JfBHxBs.png" width="300"/> </p>
+
+This video shows how the Memomed works: https://youtu.be/K7hPWc2ooWE
 
 ## Conclusion
 The MemoMed project aims to offer an affordable and low-cost solution to enhance medication adherence, especially among the elderly population. We hope that this prototype, developed using technologies like 3D printing and microcontrollers, can contribute to better medication management and, consequently, improve the quality of life for patients.
