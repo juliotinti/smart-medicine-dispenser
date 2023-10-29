@@ -35,7 +35,8 @@ The following technologies were used in this project:
 
 - 3D modelling: used to model how the project would be. 
 - ESP32: used to deliver the medicine based on the web service call. 
-- Flask: used to create the web page and jobs. 
+- Flask: used to create the web page and jobs.
+- AWS RDS: used to persist data related to user and medicines.
 - Heroku: used to deploy the web page. 
 
 ## Results
@@ -47,6 +48,11 @@ The physical implementation looks as the following:
 The medicine is pushed by the rotary movement of the motor until it falls into the region that the user has access to.
 
 <p align="center"> <img src="https://iili.io/JfB3hla.png" width="300"/><img src="https://iili.io/JfBHxBs.png" width="300"/> </p>
+
+The web portal responsible for adding and controlling the medication looked as following.
+
+<p align="center"> <img src="https://iili.io/JfoYByv.jpg" width="600"/> </p>
+<p align="center"> <img src="https://iili.io/JfoY8MP.jpg" width="300"/> </p>
 
 This video shows how the Memomed works: https://youtu.be/K7hPWc2ooWE
 
