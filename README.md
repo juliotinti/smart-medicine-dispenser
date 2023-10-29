@@ -73,7 +73,7 @@ We welcome contributions from the open-source community. If you would like to co
 - [Flávio Neto](https://www.linkedin.com/in/flavio-sidnei-dos-santos-neto/)
 - [Júlio Tinti](https://www.linkedin.com/in/juliotinti/)
 - [Lucas Moletta](https://www.linkedin.com/in/lucasmoletta/)
-- [Nitael Sampaio](https://www.linkedin.com/in/nsampaio/)
+- [Nithael Sampaio](https://www.linkedin.com/in/nsampaio/)
 
 For more details about the project, please refer to the subsequent chapters of this README or contact us.
 
